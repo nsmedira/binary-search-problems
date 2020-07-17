@@ -10,7 +10,6 @@ class Solution {
         let uniqueDinosaurs = new Set(dinosaurs.split(""))
 
         for ( let dinosaur of uniqueDinosaurs ) {
-            console.log(animals.split(dinosaur))
             count += animals.split(dinosaur).length - 1
         }
 
